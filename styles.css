@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    
+    margin:0 auto;
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    font-family: 'Rubik', sans-serif;
+  
+   
+}
+/* ---------------------------------------------------------------Butun Box_wrapper --------------------------------------------------------------*/
+#wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width:600px;
+    height:auto;
+    border-radius:5px;
+    background-color:#FAF9F6;
+    display:flex;
+    justify-content:center;
+    
+}
+
+
+#quote-box{
+    width: 80%;
+   height:100%;
+   margin:40px auto;
+}
+/* ---------------------------------------------------------------Text Suite --------------------------------------------------------------*/
+#text-box{
+    width:100%;
+    height:auto;
+    text-align:center;
+}
+
+
+#text{
+    height:auto;
+    font-size:30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.fa-quote-left{
+    font-size:30px;
+    margin-right:5px;
+}
+
+ 
+ #author{
+    display:flex;
+   justify-content:flex-end;
+   margin-top:10px;
+   margin-bottom:50px;
+   font-size:20px;
+    
+   
+}
+
+
+
+
+/* ---------------------------------------------------------------Button Suite--------------------------------------------------------------*/
+
+button{
+   
+    color:#FAF9F6;
+    border:none;
+
+}
+
+#tumblr{
+    height:40px;
+    width:50px;
+    border-radius:5px;
+    margin-left:10px;
+
+    
+}
+.fa-twitter,.fa-tumblr{
+    font-size: 20px;
+    text-decoration:none;
+    text-align:center;
+    color: #FAF9F6;
+
+}
+#twitter{
+    height:40px;
+    width:50px;
+    border-radius:5px;
+   
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+#new-quote{
+    float:right;
+    padding:8.5px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    font-size :20px;
+ }
+
+
+
+
+.by{
+    margin-top:400px;
+    font-size:15px;
+   
+}
